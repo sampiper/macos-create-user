@@ -13,4 +13,4 @@
 #dscl . -create /Users/tab-admin UniqueID "$USERID"
 
 
-sysadminctl interactive -addUser "$3" -fullName "$1" -password "$2" -admin -picture /path/to/picture
+sysadminctl interactive -addUser "$3" -fullName "$1" -password "$2" -admin
